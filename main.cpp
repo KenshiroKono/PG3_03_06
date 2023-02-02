@@ -12,6 +12,7 @@ int main() {
 	rectangle->Draw();
 
 
+	delete circle,rectangle;
 
 	return 0;
 }
