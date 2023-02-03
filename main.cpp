@@ -11,8 +11,8 @@ int main() {
 	rectangle->Size();
 	rectangle->Draw();
 
-
-	delete circle,rectangle;
-
+	delete circle;
+	delete rectangle;
+	
 	return 0;
 }
